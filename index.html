@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: Microsoft JhengHei;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 5px solid #000000;
+  text-align: center;
+  padding: 8px;
+}
+
+table {
+  background-color: #ffffff;
+}
+#t01 tr:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+}
+#t01 tr:nth-child(odd) {
+ background-color: rgb(255, 255, 255);
+}
+#t01 th {
+  background-color: rgb(240, 11, 171);
+  color: rgb(0, 0, 0);
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align: center">我的功課表</h2>
+<p style="text-align: center">開始時間:18:30</p>
+
+
+<table id="t01">
+  <tr>
+    <th>節次</th>
+    <th>星期一</th>
+    <th>星期二</th>
+    <th>星期三</th>
+    <th>星期四</th>
+    <th>星期五</th>
+  </tr>
+  <tr>
+    <td>第十節</td>
+    <th rowspan="3">電腦軟體應用</th>
+    <th rowspan="2">2D電腦動畫</th>
+    <th rowspan="3">手機應用程式開發</th>
+    <td>/////</td>
+    <th rowspan="3">產業需求調查分析</th>
+  </tr>
+  <tr>
+    <td>第十一節</td>
+    <td>/////</td>
+  </tr>
+  <tr>
+    <td>第十二節</td>
+    <th rowspan="3">網頁程式設計</th>
+    <th rowspan="3">人工智慧概論</th>
+  </tr>
+  <tr>
+    <td>第十三節</td>
+    <td>/////</td>
+    <td>/////</td>
+    <th rowspan="2">營運資金管理</th>
+  </tr>
+  <tr>
+    <td>第十四節</td>
+    <td>/////</td>
+    <td>/////</td>
+  </tr>
+</table>
+
+</body>
+</html>
